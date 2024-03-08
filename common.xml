@@ -5,7 +5,6 @@
     revision="lineage-21"/>
   <remote name="Dragonfox"
     fetch="https://github.com/DragonFox-Project"/>
-    revision="lineage-21"/>
   <remote name="CherishOS"
      fetch="https://github.com/CherishOS-exynos9820/"
      revision="lineage-21.0"/>
