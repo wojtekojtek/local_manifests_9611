@@ -34,7 +34,7 @@
   <project path="device/samsung/m21" name="device_samsung_m21" remote="Royna"/>
   <!-- Vendor trees -->
   <project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="Royna"/>
-  <project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="Cat658011""/>
+  <project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="Cat658011"/>
   <project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="Cat658011"/>
   <project path="vendor/samsung/m31s" name="vendor_samsung_m31s" remote="Cat658011"/>
   <project path="vendor/samsung/m21" name="vendor_samsung_m21" remote="Cat658011"/>
