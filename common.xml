@@ -3,6 +3,9 @@
   <remote name="Royna"
     fetch="https://github.com/Roynas-Android-Playground"
     revision="lineage-21"/>
+  <remote name="Cat658011"
+    fetch="https://github.com/cat658011"
+    revision="lineage-21"/>
   <remote name="Dragonfox"
     fetch="https://github.com/DragonFox-Project"/>
   <remote name="CherishOS"
@@ -18,7 +21,7 @@
   <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="CherishOS"/>
   <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="CherishOS"/>
   <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="CherishOS"/>
-  <!-- KSU -->
+  <!-- Kernel -->
   <project path="kernel/samsung/universal9611" name="kernel_samsung_universal9611" remote="Dragonfox" revision="Grass-Unified" />
   <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="main"/>
   <!-- Devices trees -->
@@ -30,10 +33,10 @@
   <project path="device/samsung/m31" name="device_samsung_m31" remote="Royna"/>
   <project path="device/samsung/m21" name="device_samsung_m21" remote="Royna"/>
   <!-- Vendor trees -->
-  <project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="Royna" revision="lineage-20"/>
-  <project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="Royna" revision="lineage-20"/>
-  <project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="Royna" revision="lineage-20"/>
-  <project path="vendor/samsung/m31s" name="vendor_samsung_m31s" remote="Royna" revision="lineage-20"/>
-  <project path="vendor/samsung/m21" name="vendor_samsung_m21" remote="Royna" revision="lineage-20"/>
-  <project path="vendor/samsung/m31" name="vendor_samsung_m31" remote="Royna" revision="lineage-20"/>
+  <project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="Royna"/>
+  <project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="Cat658011""/>
+  <project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="Cat658011"/>
+  <project path="vendor/samsung/m31s" name="vendor_samsung_m31s" remote="Cat658011"/>
+  <project path="vendor/samsung/m21" name="vendor_samsung_m21" remote="Cat658011"/>
+  <project path="vendor/samsung/m31" name="vendor_samsung_m31" remote="Cat658011"/>
 </manifest>
