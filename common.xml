@@ -10,7 +10,7 @@
     fetch="https://github.com/DragonFox-Project"/>
   <remote name="LineageOS"
      fetch="https://github.com/LineageOS/"
-     revision="lineage-21">
+     revision="lineage-21"/>
     <!-- Sync hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="Royna" revision="fourteen"/>
   <project path="hardware/samsung_slsi" name="hardware_samsung_slsi" remote="Dragonfox" revision="evo-udc"/>
