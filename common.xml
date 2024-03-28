@@ -28,21 +28,21 @@
   <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="CherishOS"/>
   <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="CherishOS"/>
   <!-- Kernel -->
-  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Devlopment" revision="Cat-Kernel" />
+  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="Cat-Kernel" />
   <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="main"/>
   <!-- Devices trees -->
   <project path="device/samsung/universal9611-common" name="device_samsung_universal9611-common" remote="Royna"/>
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="Devlopment"/>
-  <project path="device/samsung/a51" name="device_samsung_a51" remote="Devlopment"/>
-  <project path="device/samsung/f41" name="device_samsung_f41" remote="Devlopment"/>
-  <project path="device/samsung/m31s" name="device_samsung_m31s" remote="Devlopment"/>
-  <project path="device/samsung/m31" name="device_samsung_m31" remote="Devlopment"/>
-  <project path="device/samsung/m21" name="device_samsung_m21" remote="Devlopment"/>
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="Development"/>
+  <project path="device/samsung/a51" name="device_samsung_a51" remote="Development"/>
+  <project path="device/samsung/f41" name="device_samsung_f41" remote="Development"/>
+  <project path="device/samsung/m31s" name="device_samsung_m31s" remote="Development"/>
+  <project path="device/samsung/m31" name="device_samsung_m31" remote="Development"/>
+  <project path="device/samsung/m21" name="device_samsung_m21" remote="Development"/>
   <!-- Vendor trees -->
-  <project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="Devlopment"/>
-  <project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="Devlopment"/>
-  <project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="Devlopment"/>
-  <project path="vendor/samsung/m31s" name="vendor_samsung_m31s" remote="Devlopment"/>
-  <project path="vendor/samsung/m21" name="vendor_samsung_m21" remote="Devlopment"/>
-  <project path="vendor/samsung/m31" name="vendor_samsung_m31" remote="Devlopment"/>
+  <project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="Development"/>
+  <project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="Development"/>
+  <project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="Development"/>
+  <project path="vendor/samsung/m31s" name="vendor_samsung_m31s" remote="Development"/>
+  <project path="vendor/samsung/m21" name="vendor_samsung_m21" remote="Development"/>
+  <project path="vendor/samsung/m31" name="vendor_samsung_m31" remote="Development"/>
 </manifest>
