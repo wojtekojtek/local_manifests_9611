@@ -13,7 +13,7 @@
      revision="lineage-21.0"/>
   <remote name="LineageOS"
      fetch="https://github.com/LineageOS/"
-     revision="lineage-21.0"/>
+     revision="lineage-21"/>
   <remote name="Development"
      fetch="https://github.com/Exynos9611Development/"
      revision="lineage-21"/>
