@@ -14,13 +14,13 @@
   <remote name="LineageOS"
      fetch="https://github.com/LineageOS/"
      revision="lineage-21.0"/>
-  <remote name="Dev"
+  <remote name="Development"
      fetch="https://github.com/Exynos9611Development/"
      revision="lineage-21"/>
     <!-- Sync hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS"/>
   <project path="hardware/samsung_slsi" name="hardware_samsung_slsi" remote="Dragonfox" revision="evo-udc"/>
-  <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="Dev" revision="master"/>
+  <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="Development" revision="master"/>
   <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="CherishOS"/>
   <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="CherishOS"/>
   <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="CherishOS"/>
