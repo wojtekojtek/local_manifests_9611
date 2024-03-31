@@ -19,7 +19,7 @@
      revision="lineage-21"/>
     <!-- Sync hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="Development" revision="fourteen"/>
-  <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="Development"/>
+  <project path="hardware/samsung-ext/interfaces" name="android_hardware_samsung-extra_interfaces" remote="Development"/>
   <project path="hardware/samsung_slsi" name="hardware_samsung_slsi" remote="Dragonfox" revision="evo-udc"/>
   <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linux4-bringup-priv"/>
   <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="linux4-bringup-priv"/>
