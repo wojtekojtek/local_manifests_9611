@@ -18,12 +18,12 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="Development" revision="fourteen"/>
   <project path="hardware/samsung-ext/interfaces" name="android_hardware_samsung-extra_interfaces" remote="Development"/>
   <project path="hardware/samsung_slsi" name="hardware_samsung_slsi" remote="Dragonfox" revision="evo-udc"/>
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="Development" revision="lineage-21.0"/>
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="Development" revision="lineage-21.0"/>
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="Development" revision="lineage-21.0"/>
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="Development" revision="lineage-21.0"/>
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="Development" revision="lineage-21.0"/>
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="Development" revision="lineage-21.0"/>
+  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="Development"/>
+  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="Development"/>
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="Development"/>
+  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="Development"/>
+  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="Development"/>
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="Development"/>
   <!-- Kernel -->
   <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="14-dev" />
   <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="main"/>
