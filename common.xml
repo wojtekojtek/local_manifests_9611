@@ -8,9 +8,9 @@
     revision="lineage-21"/>
   <remote name="Dragonfox"
     fetch="https://github.com/DragonFox-Project"/>
-  <remote name="CherishOS"
-     fetch="https://github.com/CherishOS-exynos9820/"
-     revision="lineage-21.0"/>
+	<remote name="linux4-bringup-priv"
+		 fetch="https://github.com/linux4-bringup-priv"
+		 revision="lineage-21.0"/>
   <remote name="LineageOS"
      fetch="https://github.com/LineageOS/"
      revision="lineage-21"/>
@@ -18,14 +18,13 @@
      fetch="https://github.com/Exynos9611Development/"
      revision="lineage-21"/>
     <!-- Sync hardware -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS"/>
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="Development"/>
   <project path="hardware/samsung_slsi" name="hardware_samsung_slsi" remote="Dragonfox" revision="evo-udc"/>
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="CherishOS"/>
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="CherishOS"/>
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="CherishOS"/>
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="CherishOS"/>
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="CherishOS"/>
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="CherishOS"/>
+	<project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linux4-bringup-priv"/>
+	<project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="linux4-bringup-priv"/>
+	<project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="linux4-bringup-priv"/>
+	<project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="linux4-bringup-priv"/>
+	<project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="LineageOS"/>
   <!-- Kernel -->
   <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="14-dev" />
   <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="main"/>
