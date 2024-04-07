@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Royna"
-    fetch="https://github.com/Roynas-Android-Playground"
-    revision="lineage-21"/>
-  <remote name="Cat658011"
-    fetch="https://github.com/cat658011"
-    revision="lineage-21"/>
-  <remote name="Dragonfox"
-    fetch="https://github.com/DragonFox-Project"/>
   <remote name="LineageOS"
      fetch="https://github.com/LineageOS/"
-     revision="lineage-21"/>
+     revision="lineage-21" />
   <remote name="Development"
      fetch="https://github.com/Exynos9611Development/"
-     revision="lineage-21"/>
+     revision="lineage-21" />
     <!-- Sync hardware -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="Development" revision="fourteen"/>
-  <project path="hardware/samsung-ext/interfaces" name="android_hardware_samsung-extra_interfaces" remote="Development"/>
-  <project path="hardware/samsung_slsi" name="hardware_samsung_slsi" remote="Dragonfox" revision="evo-udc"/>
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="Development"/>
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="Development"/>
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="Development"/>
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="Development"/>
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="Development"/>
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="Development"/>
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" />
+	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="LineageOS"/>
+	<project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS"/>
+	<project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="LineageOS"/> 
+ <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="LineageOS" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="LineageOS" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="LineageOS" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="LineageOS" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="LineageOS" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="Development" />
   <!-- Kernel -->
-  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="14-dev" />
-  <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="main"/>
+  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="Grass-Unified" />
+  <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="main" />
   <!-- Devices trees -->
-  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="Development"/>
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="Development"/>
-  <project path="device/samsung/a51" name="android_device_samsung_a51" remote="Development"/>
-  <project path="device/samsung/f41" name="android_device_samsung_f41" remote="Development"/>
-  <project path="device/samsung/m31s" name="android_device_samsung_m31s" remote="Development"/>
-  <project path="device/samsung/m31" name="android_device_samsung_m31" remote="Development"/>
-  <project path="device/samsung/m21" name="android_device_samsung_m21" remote="Development"/>
+  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="Development" />
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS" />
+  <project path="device/samsung/a51" name="android_device_samsung_a51" remote="Development" />
+  <project path="device/samsung/f41" name="android_device_samsung_f41" remote="Development" />
+  <project path="device/samsung/m31s" name="android_device_samsung_m31s" remote="Development" />
+  <project path="device/samsung/m31" name="android_device_samsung_m31" remote="Development" />
+  <project path="device/samsung/m21" name="android_device_samsung_m21" remote="Development" />
   <!-- Vendor trees -->
-  <project path="vendor/samsung/universal9611-common" name="android_vendor_samsung_universal9611-common" remote="Development"/>
-  <project path="vendor/samsung/f41" name="android_vendor_samsung_f41" remote="Development"/>
-  <project path="vendor/samsung/a51" name="android_vendor_samsung_a51" remote="Development"/>
-  <project path="vendor/samsung/m31s" name="android_vendor_samsung_m31s" remote="Development"/>
-  <project path="vendor/samsung/m21" name="android_vendor_samsung_m21" remote="Development"/>
-  <project path="vendor/samsung/m31" name="android_vendor_samsung_m31" remote="Development"/>
+  <project path="vendor/samsung/universal9611-common" name="android_vendor_samsung_universal9611-common" remote="Development" />
+  <project path="vendor/samsung/a51" name="android_vendor_samsung_a51" remote="Development" />
+  <project path="vendor/samsung/f41" name="android_vendor_samsung_f41" remote="Development" />
+  <project path="vendor/samsung/m31s" name="android_vendor_samsung_m31s" remote="Development" />
+  <project path="vendor/samsung/m21" name="android_vendor_samsung_m21" remote="Development" />
+  <project path="vendor/samsung/m31" name="android_vendor_samsung_m31" remote="Development" />
 </manifest>
