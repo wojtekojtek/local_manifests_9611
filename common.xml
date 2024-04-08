@@ -7,6 +7,7 @@
      fetch="https://github.com/Exynos9611Development/"
      revision="lineage-21" />
     <!-- Sync hardware -->
+  <project path="packages/apps/ViPER4AndroidFX" name="swiitch-OFF-Lab/packages_apps_ViPER4AndroidFX" remote="github" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" />
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="LineageOS" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS" />
