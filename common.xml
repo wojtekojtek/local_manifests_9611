@@ -6,18 +6,20 @@
   <remote name="Development"
      fetch="https://github.com/Exynos9611Development/"
      revision="lineage-21" />
+  <remote name="linux4-bringup-priv"
+     fetch="https://github.com/linux4-bringup-priv/"
+     revision="lineage-21" />
     <!-- Sync hardware -->
-  <project path="packages/apps/ViPER4AndroidFX" name="swiitch-OFF-Lab/packages_apps_ViPER4AndroidFX" remote="github" revision="V4A" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="linux4-bringup-priv" />
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="LineageOS" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="LineageOS" /> 
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="LineageOS" />
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="LineageOS" />
+  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linux4-bringup-priv" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="linux4-bringup-priv" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="linux4-bringup-priv" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="linux4-bringup-priv" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="linux4-bringup-priv" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="linux4-bringup-priv" />
   <!-- Kernel -->
   <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="Grass-Unified" />
   <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="main" />
