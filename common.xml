@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Development"
-     fetch="ssh://git@github.com/Exynos9611Development/"
+     fetch="https://github.com/Exynos9611Development/"
      revision="lineage-21" />
   <remote name="linux4-bringup-priv"
      fetch="https://github.com/linux4-bringup-priv/"
