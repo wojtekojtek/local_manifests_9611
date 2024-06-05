@@ -21,14 +21,14 @@
   <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="Grass-Unified" clone-depth="1" />
   <project path="kernel/samsung/universal9611/KernelSU" name="tiann/KernelSU" remote="github" revision="109442f8c4c7692af6562bdad6fd9f39dc1f935b" clone-depth="1" />
   <!-- Devices trees -->
-  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="Development" clone-depth="1" />
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="device/samsung/a51" name="android_device_samsung_a51" remote="Development" clone-depth="1" />
-  <project path="device/samsung/f41" name="android_device_samsung_f41" remote="Development" clone-depth="1" />
-  <project path="device/samsung/m31s" name="android_device_samsung_m31s" remote="Development" clone-depth="1" />
-  <project path="device/samsung/m30s" name="android_device_samsung_m30s" remote="Development" clone-depth="1" />
-  <project path="device/samsung/m31" name="android_device_samsung_m31" remote="Development" clone-depth="1" />
-  <project path="device/samsung/m21" name="android_device_samsung_m21" remote="Development" clone-depth="1" />
+  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="Development" />
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="linux4-bringup-priv" />
+  <project path="device/samsung/a51" name="android_device_samsung_a51" remote="Development" />
+  <project path="device/samsung/f41" name="android_device_samsung_f41" remote="Development" />
+  <project path="device/samsung/m31s" name="android_device_samsung_m31s" remote="Development" />
+  <project path="device/samsung/m30s" name="android_device_samsung_m30s" remote="Development" />
+  <project path="device/samsung/m31" name="android_device_samsung_m31" remote="Development" />
+  <project path="device/samsung/m21" name="android_device_samsung_m21" remote="Development" />
   <!-- Vendor trees -->
   <project path="vendor/samsung/universal9611-common" name="android_vendor_samsung_universal9611-common" remote="Development" clone-depth="1" />
   <project path="vendor/samsung/a51" name="android_vendor_samsung_a51" remote="Development" clone-depth="1" />
