@@ -8,7 +8,7 @@
      revision="lineage-21.0" />
     <remote name="wojtekojtek"
      fetch="https://github.com/wojtekojtek/"
-     revision="lineage-21.0" />
+     revision="lineage-21" />
     <!-- Sync hardware -->
   <project path="hardware/samsung" name="Roynas-Android-Playground/android_hardware_samsung" remote="github" revision="fifteen" clone-depth="1" />
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linux4-bringup-priv" clone-depth="1" />
