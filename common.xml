@@ -6,6 +6,9 @@
   <remote name="linux4-bringup-priv"
      fetch="https://github.com/linux4-bringup-priv/"
      revision="lineage-22.0" />
+  <remote name="wojtekojtek"
+    fetch="https://github.com/wojtekojtek/"
+    revision="lineage-22.0" />
     <!-- Sync hardware -->
   <project path="hardware/samsung" name="Roynas-Android-Playground/android_hardware_samsung" remote="github" revision="fifteen" clone-depth="1" />
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linux4-bringup-priv" clone-depth="1" />
@@ -24,7 +27,7 @@
   <!-- Devices trees -->
   <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="Development" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="linux4-bringup-priv" />
-  <project path="device/samsung/a51" name="android_device_samsung_a51" remote="Development" />
+  <project path="device/samsung/a51" name="android_device_samsung_a51" remote="wojtekojtek" />
   <project path="device/samsung/f41" name="android_device_samsung_f41" remote="Development" />
   <project path="device/samsung/m31s" name="android_device_samsung_m31s" remote="Development" />
   <project path="device/samsung/m31" name="android_device_samsung_m31" remote="Development" />
